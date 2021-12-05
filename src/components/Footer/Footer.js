@@ -9,7 +9,7 @@ function Footer() {
         </p>
       </div>
       <div className="footer__link-area">
-        <p className="footer__copyright">© 2020</p>
+        <p className="footer__copyright">© 2021</p>
         <ul className="footer__link-box">
           <li>
             <a
