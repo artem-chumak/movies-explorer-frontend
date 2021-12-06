@@ -14,7 +14,7 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 1.22;
-  letter-spacing: calc(1em / 250);
+  letter-spacing: -1px;
 }
 
 .about-project__box {

@@ -1,12 +1,12 @@
 .header {
-  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
-  background-color: #F3C1F8;
+  min-height: 74px;
+  position: absolute;
+  top: 0;
 }
 
 .header__container {
   max-width: 1280px;
   margin: 0 auto;
-  min-height: 74px;
-  padding: 0 70px;
 }
