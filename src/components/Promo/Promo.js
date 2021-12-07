@@ -15,9 +15,15 @@ function Promo() {
               создателя.
             </p>
           </div>
-          <a href="#about-project" className="promo__link">Узнать больше</a>
+          <a href="#about-project" className="promo__link">
+            Узнать больше
+          </a>
         </div>
-        <img src={image} alt="логотип проекта" className="promo__image" />
+        <img
+          src={image}
+          alt="логотип проекта в виде земного шара из повторяющего слова веб"
+          className="promo__image"
+        />
       </div>
     </section>
   );

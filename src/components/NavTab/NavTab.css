@@ -1,0 +1,50 @@
+.navtab {
+}
+
+.navtab__reg-link {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  margin-right: 30px;
+  transition: 0.2s ease-in;
+}
+
+.navtab__reg-link:hover {
+  opacity: 0.6;
+}
+
+.navtab__entrance-link {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 10px;
+  width: 76px;
+  height: 32px;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  transition: 0.2s ease-in;
+}
+
+.navtab__entrance-link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .navtab__entrance-link {
+    padding: 5px 10px;
+    width: 54px;
+    height: 26px;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .navtab__reg-link {
+    font-size: 10px;
+    line-height: 1.6;
+    margin-right: 14px;
+  }
+}
