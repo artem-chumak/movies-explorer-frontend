@@ -1,17 +1,18 @@
-import "./Movies.css";
+import "./SavedMovies.css"
 import SearchForm from "../SearchForm/SearchForm";
 // import Preloader from "../Preloader/Preloader";
 import MoviesCardList from "../MoviesCardList/MoviesCardList";
 
-function Movies() {
+
+function SavedMovies () {
   return (
-    <main className="movies">
+    <main className="saved-movies">
       <SearchForm />
     {/* <Preloader /> */}
       <MoviesCardList />
-      <button className="movies-list__more-button">Ещё</button>
     </main>
-  );
+
+  )
 }
 
-export default Movies;
+export default SavedMovies

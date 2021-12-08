@@ -1,12 +1,15 @@
-import "./MoviesCardList.css"
+import "./MoviesCardList.css";
 import MovieCard from "../MoviesCard/MoviesCard";
 
 function MoviesCardList() {
-return (
-<>
-<MovieCard />
-</>
-)
+  return (
+    <section className="movies-list">
+      <ul className="movies-list__cards">
+        <MovieCard />
+        <MovieCard />
+      </ul>
+    </section>
+  );
 }
 
-export default MoviesCardList
+export default MoviesCardList;
