@@ -15,7 +15,7 @@ function Header() {
           <p className="header__link-text">Аккаунт</p>
           <div className="header__link-icon"></div>
         </a>
-        {/* <button></button> */}
+        <button className="header__menu-button"></button>
 
         {/* <NavTab /> */}
       </div>

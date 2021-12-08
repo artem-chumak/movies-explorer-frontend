@@ -26,3 +26,9 @@
 .navigation__link:hover {
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}

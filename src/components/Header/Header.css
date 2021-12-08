@@ -53,14 +53,44 @@ opacity: 0.6;
   background-position: center;
 }
 
+.header__menu-button {
+  display: none;
+  height: 44px;
+  width: 44px;
+  border:none;
+  background-color: white;
+  background-image: url(../../images/menu-icon.svg);
+  transition: 0.2s ease-in;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+}
+
+.header__menu-button:hover {
+  opacity: 0.6;
+}
+
 @media screen and (max-width: 768px) {
   .header__container {
     padding: 0 30px;
+  }
+
+  .header__menu-button {
+    display: block;
+  }
+
+  .header__link {
+    display: none;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header__container {
     padding: 0 14px;
+  }
+
+  .header__menu-button {
+    width: 40px;
+    height: 43px;
   }
 }
