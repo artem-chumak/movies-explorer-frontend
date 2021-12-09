@@ -1,0 +1,18 @@
+.register {
+  width: 396px;
+  min-height: 700px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.register__logo {
+  margin-bottom: 40px;
+}
+
+.register__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.21;
+  margin: 0 0 40px 0;
+}
