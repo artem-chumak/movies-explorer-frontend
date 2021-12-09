@@ -15,6 +15,7 @@ import Movies from "../Movies/Movies";
 import SavedMovies from "../SavedMovies/SavedMovies";
 import NotFound from "../NotFound/NotFound";
 import Register from "../Register/Register"
+import Login from "../Login/Login"
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <SavedMovies /> */}
       {/* <Footer /> */}
       {/* <NotFound /> */}
-      <Register />
+      {/* <Register /> */}
+      <Login />
     </div>
   );
 }
