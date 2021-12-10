@@ -6,9 +6,10 @@
 // todo - Добавить линки на страницы в NavTab
 // todo - Заменить текст хомячка на мой
 // todo - Проверить все линки, котрые есть в пректе
+// todo - Клик по логотипу ведет на главную
 
 import "./App.css";
-// import Main from "../Main/Main";
+import Main from "../Main/Main";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Movies from "../Movies/Movies";
@@ -16,6 +17,7 @@ import SavedMovies from "../SavedMovies/SavedMovies";
 import NotFound from "../NotFound/NotFound";
 import Register from "../Register/Register"
 import Login from "../Login/Login"
+import Profile from "../Profile/Profile"
 
 function App() {
   return (
@@ -27,7 +29,8 @@ function App() {
       {/* <Footer /> */}
       {/* <NotFound /> */}
       {/* <Register /> */}
-      <Login />
+      {/* <Login /> */}
+      <Profile />
     </div>
   );
 }

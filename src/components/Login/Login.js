@@ -10,7 +10,7 @@ function Login() {
         alt="логотип, стилизованный под смайлик"
       />
       <form className="login__form">
-        <h1 className="login__title">Добро пожаловать!</h1>
+        <h1 className="login__title">Рады видеть!</h1>
         <label className="login__label" for="login-email">
           E-mail
         </label>
