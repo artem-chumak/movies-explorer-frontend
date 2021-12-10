@@ -18,19 +18,21 @@ import NotFound from "../NotFound/NotFound";
 import Register from "../Register/Register"
 import Login from "../Login/Login"
 import Profile from "../Profile/Profile"
+import Menu from "../Menu/Menu"
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       {/* <Main /> */}
-      {/* <Movies /> */}
+      <Movies />
       {/* <SavedMovies /> */}
       {/* <Footer /> */}
       {/* <NotFound /> */}
       {/* <Register /> */}
       {/* <Login /> */}
-      <Profile />
+      {/* <Profile /> */}
+      {/* <Menu /> */}
     </div>
   );
 }

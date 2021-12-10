@@ -1,7 +1,9 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  width: 212px;
+  width: 274px;
+  box-sizing: border-box;
+  padding-left: 62px;
 }
 
 .navigation__link {
