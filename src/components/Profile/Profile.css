@@ -46,6 +46,10 @@
   outline-offset: 0;
 }
 
+.profile__input:invalid {
+  color: #ff4062;
+}
+
 .profile__section:last-of-type {
   border-bottom: none;
   margin-bottom: 200px;

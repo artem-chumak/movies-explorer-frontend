@@ -6,10 +6,6 @@
   padding: 70px 0;
 }
 
-.register__logo {
-  margin-bottom: 40px;
-}
-
 .register__title {
   font-size: 24px;
   font-weight: 500;
@@ -20,6 +16,8 @@
 .register__form {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 40px;
 }
 
 .register__label {

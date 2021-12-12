@@ -4,6 +4,9 @@
   line-height: 1.33;
   margin-right: 30px;
   transition: 0.2s ease-in;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .navtab__reg-link:hover {
@@ -11,6 +14,7 @@
 }
 
 .navtab__entrance-link {
+  text-decoration: none;
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
@@ -24,6 +28,7 @@
   font-weight: 500;
   line-height: 1.33;
   transition: 0.2s ease-in;
+  cursor: pointer;
 }
 
 .navtab__entrance-link:hover {

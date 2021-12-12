@@ -1,28 +1,25 @@
 import "./Register.css";
-import logo from "../../images/logo.svg";
+import Logo from "../Logo/Logo"
+import { Link } from "react-router-dom"
 
 function Register() {
   return (
     <section className="register">
-      <img
-        className="register__logo"
-        src={logo}
-        alt="логотип, стилизованный под смайлик"
-      />
+      <Logo />
       <form className="register__form">
         <h1 className="register__title">Добро пожаловать!</h1>
-        <label className="register__label" for="register-name">
+        <label className="register__label" htmlFor="register-name">
           Имя
         </label>
         <input
           className="register__input"
-          minlength="2"
+          minLength="2"
           id="register-name"
           name="register-name"
           type="text"
           required
         />
-        <label className="register__label" for="register-email">
+        <label className="register__label" htmlFor="register-email">
           E-mail
         </label>
         <input
@@ -32,12 +29,12 @@ function Register() {
           type="email"
           required
         />
-        <label className="register__label" for="register-password">
+        <label className="register__label" htmlFor="register-password">
           Пароль
         </label>
         <input
           className="register__input"
-          minlength="8"
+          minLength="8"
           id="register-password"
           name="register-password"
           type="password"
@@ -48,7 +45,7 @@ function Register() {
           Зарегистрироваться
         </button>
         <span className="register__text">
-          Уже зарегистрированы?<a href="#" className="register__link">Войти</a>
+          Уже зарегистрированы?<Link to="/signin" className="register__link">Войти</Link>
         </span>
       </form>
     </section>

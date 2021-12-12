@@ -1,20 +1,28 @@
 import "./Header.css";
-import logo from "../../images/logo.svg";
+import Logo from "../Logo/Logo";
 import NavTab from "../NavTab/NavTab";
 import Navigation from "../Navigation/Navigation";
 import AccountLink from "../AccountLink/AccountLink";
+import { useRouteMatch } from "react-router-dom";
 
-function Header() {
+function Header({ handleMenu }) {
+  const matchMain = useRouteMatch("/");
+
   return (
     <header className="header">
       <div className="header__container">
-        <img src={logo} alt="логотип, стилизованный под смайлик" />
-        <Navigation />
-        <div className="header__link-wrapper">
-          <AccountLink />
-        </div>
-        <button className="header__menu-button"></button>
-        {/* <NavTab /> */}
+        <Logo />
+        {matchMain.isExact ? (
+          <NavTab />
+        ) : (
+          <>
+            <Navigation />
+            <div className="header__link-wrapper">
+              <AccountLink />
+            </div>
+            <button onClick={ handleMenu } className="header__menu-button"></button>
+          </>
+        )}
       </div>
     </header>
   );
