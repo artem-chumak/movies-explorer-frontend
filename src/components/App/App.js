@@ -1,6 +1,3 @@
-// todo - заменить спец. символы юникодом, еще сделать типограф
-// todo - Заменить текст хомячка на мой
-
 import "./App.css";
 import Main from "../Main/Main";
 import Header from "../Header/Header";
