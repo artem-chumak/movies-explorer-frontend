@@ -7,7 +7,7 @@ function SearchForm() {
         <div className="search-form__wrapper">
           <form className="search-form__form">
             <div className="search-form__icon"></div>
-            <input className="search-form__input" placeholder="Фильм" />
+            <input required className="search-form__input" placeholder="Фильм" />
             <button type="submit" className="search-form__button">
               Найти
             </button>

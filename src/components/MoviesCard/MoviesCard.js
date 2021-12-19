@@ -9,9 +9,9 @@ function MoviesCard() {
           <p className="movie-card__subtitle">1ч 42м</p>
         </div>
         <div>
-          <div className="icon movie-card__like"></div>
-          <div className="icon movie-card__liked"></div>
-          <div className="icon movie-card__delete"></div>
+          <button className="icon movie-card__like"></button>
+          <button className="icon movie-card__liked"></button>
+          <button className="icon movie-card__delete"></button>
         </div>
       </div>
       <img
